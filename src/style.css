@@ -12,20 +12,44 @@ width: 550px;
 height: 704px;
 }
 nav {
-position: absolute;
+position: relative;
 width: 550px;
-height: 100px;
+height: 55px;
 left: 0px;
 top: 0px;
 background:#F55A5A;
 }
 .nav--icon {
-
-  height: 20px;
-  width: 20px;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2 - 50px);
+  top: calc(50% - 24px/2 - 324px);
+  position: absolute;
+  background: #DADADA;
 }
 .nav--title {
   color: #FFFFFF;
   height: 20px;
   width: 20px;
+}
+.card {
+position: absolute;
+width: 470px;
+height: 168px;
+left: 40px;
+top: 100px;
+}
+.card--image{
+position: absolute;
+width: 125px;
+height: 168px;
+left: 40px;
+top: 100px;
+
+background: url(.png);
+border-radius: 5px;
+}
+.card--location {
+  height: 20px;
+  width: 550px
 }
