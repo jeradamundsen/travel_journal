@@ -1,13 +1,16 @@
 import React from "react" 
 import Navbar from "./components/Navbar" 
 import Card from "./components/Card" 
-import travelData from "./data" 
+import {data} from "./data" 
+import "./style.css"
 
 export default function App(){
-  const cards = travelData.map(item =>{
+  console.log(data)
+  const cards = data.map(item =>{
+    console.log(item)
     return (
       <Card
-        key={item.description}
+        
         {...item}
         />
     )
