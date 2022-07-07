@@ -45,9 +45,10 @@ letter-spacing: -0.075em;
   display: flex;          
   flex-direction: row; 
   gap: 30px;
-  margin-left: 40px;
+  margin-left: 50px;
   margin-top: 40px;
-  margin-right: 40px;
+  margin-right: 50px;
+  border-bottom:  1px solid #F5F5F5;
 }
 .card--image{
 flex-basis: 125px;
@@ -55,7 +56,9 @@ flex-grow: 0;
 height: 168px;
 border-radius: 5px;
 flex-shrink: 1;
-
+margin-bottom: 40px;
+margin-top: 0px;
+padding-top: 0;
 }
 .card--info{
   flex-basis: 326px;
@@ -85,7 +88,7 @@ flex-shrink: 1;
   
 }
 .card--location-url{
-  
+  color: #918E9B;
   flex: 1 1 225px;
   min-height: 12px;
   font-style: normal;
