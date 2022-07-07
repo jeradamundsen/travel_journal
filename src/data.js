@@ -29,7 +29,7 @@ export const data = [
     location: "Greece",
     googleMapsUrl: "https://goo.gl/maps/WDsE99QqP856NL296",
     startDate: "Sept 27, 2013",
-    description: "Fira is the capital of Santorini, a Greek island in the Aegean Sea. The Museum of Prehistoric Thira displays items from the destroyed Bronze Age settlement of Akrotiri, including wall paintings and ceramics. Nearby, the whitewashed Orthodox Metropolitan Cathedral has frescoes by local artist Christoforos Asimis. Fira’s clifftop location affords views of Nea Kameni, a still-active volcanic island to the west.",
+    description: "Fira is the capital of Santorini, a Greek island in the Aegean Sea. The Museum of Prehistoric Thira displays items from the destroyed Bronze Age settlement of Akrotiri, including wall paintings and ceramics. Nearby, the whitewashed Orthodox Metropolitan Cathedral has frescoes by local artist Christoforos Asimis.",
     imageUrl: "santorini2.jpeg",
   },
   {
