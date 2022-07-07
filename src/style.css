@@ -9,34 +9,30 @@ body {
 }
 .container {
 position: absolute;
-width: 550px;
-height: 704px;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
 }
 nav {
-position: absolute;
-width: 550px;
-height: 55px;
-left: 0px;
-top: 0px;
+display:flex;
+flex-basis: 55px;
+flex-grow: 0;
 background:#F55A5A;
+align-items: center;
+justify-content: center;
+gap: 10px;
 }
 .nav--icon {
-  width: 24px;
+  flex-basis: 24px;
   height: 24px;
-  left:  213px;
-  top: 16px;
-  position: absolute;
-  background: #FFFFFF;
+  color: white;
   margin: 0;
   padding: 0;
 }
 .nav--title {
-  color: #FFFFFF;
- position: absolute;
-width: 109px;
+color: #FFFFFF;
+flex-basis: 109px;
 height: 16px;
-left: 244px;
-top: 20px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
@@ -45,23 +41,40 @@ line-height: 18px;
 letter-spacing: -0.075em;
 }
 .card {
-  width: 175px;
-  font-size: 12px;
-  flex: 0 0 auto;         /* ADD */
-  display: flex;          /* ADD */
-  flex-direction: column; /* ADD */
-  position: relative;
+  font-size: 12px; 
+  display: flex;          
+  flex-direction: row; 
+  gap: 30px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
 }
 .card--image{
-
-width: 125px;
+flex-basis: 125px;
+flex-grow: 0;
 height: 168px;
-
-
 border-radius: 5px;
+flex-shrink: 1;
+
+}
+.card--info{
+  flex-basis: 326px;
+  flex-grow: 3;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+.card--title{
+  flex-basis: 326px;
+  min-height: 40px;
 }
 
 .card--location {
-  height: 20px;
-  width: 550px
+  min-height: 20px;
+  flex-basis: 550px
+}
+.card--location-url{
+  flex-basis: 106px;
+  min-height: 13px;
+
 }

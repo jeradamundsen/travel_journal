@@ -18,9 +18,7 @@ export default function App(){
   return(
     <div className="container">
       <Navbar/>
-      <section className="cards-list">
         {cards}
-      </section>
     </div>
   )
 }
